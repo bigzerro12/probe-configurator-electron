@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProbeConfigurator</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!--
+      MUST use relative path "./src/..." not absolute "/src/..."
+      Absolute paths fail in Rollup production build:
+      "Rollup failed to resolve import /src/renderer/main.tsx"
+    -->
+    <script type="module" src="./src/renderer/main.tsx"></script>
+  </body>
+</html>
