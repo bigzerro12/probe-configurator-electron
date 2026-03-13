@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "SEGGER J-Link Probe Manager",
   "license": "MIT",
-  "author": "ProbeConfigurator Team",
+  "author": {
+    "name": "Huy Nguyen",
+    "email": "bigzerro12@gmail.com"
+  },
   "main": "out/main/main.js",
   "engines": {
     "node": ">=20.19.0"
@@ -25,15 +28,14 @@
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.20",
-    "cross-env": "^7.0.3",
     "electron": "^32.2.0",
     "electron-builder": "^25.1.8",
-    "electron-icon-builder": "^2.0.1",
     "electron-vite": "^5.0.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.7.2",
-    "vite": "^6.0.7"
+    "vite": "^6.0.7",
+    "cross-env": "^7.0.3"
   },
   "dependencies": {
     "electron-log": "^5.2.4",
